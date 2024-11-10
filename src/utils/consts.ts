@@ -1,11 +1,11 @@
-import type { Attributes, Class } from "./types";
+import type { Attributes, Class } from "../types";
 
 export const ATTRIBUTE_LIST = [
     'Strength',
     'Dexterity',
     'Constitution',
     'Intelligence',
-    'Wisdom',
+    'Wisdom',  
     'Charisma',
 ];
 
