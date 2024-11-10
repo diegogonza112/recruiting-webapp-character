@@ -18,7 +18,7 @@ const ClassesSection: React.FC<ClassesProps> = ({ attributes, selectedClass, set
   };
 
   return (
-    <div>
+    <>
       <h2>Available Classes</h2>
         {Object.keys(CLASS_LIST).map((className: Class) => (
           <div
@@ -49,7 +49,7 @@ const ClassesSection: React.FC<ClassesProps> = ({ attributes, selectedClass, set
             {meetsClassRequirements(className) ? <p>Eligible for this class!</p> : null}
           </div>
       ))}
-    </div>
+    </>
   );
 };
 
